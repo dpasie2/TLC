@@ -7,7 +7,8 @@
   <div class="info">
     <div class="logo">
       <%= image_tag("logo.png", size: "120x120") %>
-      <h1 class="title">Trina's Lil' Cakes</h1>
+      <h1 id="title">Trina's Lil' Cakes</h1>
+      <h6 id="author">by: Trina Nicolasin</h6>
     </div>
 
     <div class="tabs">
@@ -24,7 +25,7 @@
               <%= image_tag("sample.jpg", size: "305x230") %>
             </div>
           </div>
-          <h3 class="topic">Trina's Lil' Cakes (TLC) makes delicious & adorable cakes and pastries! For menu, prices or to order, please e-mail trinaslilcakes@gmail.com. Thank you!</h3>
+          <h3 class="topic">Trina has been baking since she was a little girl at her Mom’s Restaurant/Bakery in the Philippines. They used to make little treats like chocolate lollipops, cupcakes, cookies and more! She decided to go to culinary school and graduated from Le Cordon Bleu Chicago in 2012. She has trained and worked under numerous well known Pastry Chefs such as Jing Palasigue who is a Master Sugar Artist and Chef Marylin McNabb at the Hilton Hotel in Northbrook. She has also consulted and created designs for The American Girl Doll Bakeshop. Eventually, she developed a strong enough client base to start her own baking business, Trina's Lil' Cakes or TLC. Since, she has made sweet treats for customers all around the Chicagoland area.</h3>
         </div>
 
         <div id="menu" class="tab">
@@ -59,9 +60,20 @@
               <%= image_tag("swimcake.jpg", size: "305x230") %>
             </div>
           </div>
-          <h3 class="topic">Contact</h3>
-            <h4 class="content">Phone: (847)</h4>
-            <h4 class="content">Email: tnicolason@gmail.com</h4>
+          <h2 class="topic">Email Me!</h2>
+<form id="email" action="MAILTO:dpasie2@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br><br>
+E-mail:<br>
+<input type="text" name="mail" value="your email"><br><br>
+Comment:<br>
+<textarea rows="5" cols="50" name="comment" form="email">Enter inquiry here!</textarea><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
         </div>
       </div>
 

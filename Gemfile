@@ -52,5 +52,8 @@ group :development do
   group :development, :test do
     gem 'sqlite3'
   end
+
+  gem 'simple_form'
+  gem 'mail_form'
 end
 
