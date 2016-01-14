@@ -1,0 +1,28 @@
+* Elements
+  -Gives the literal structured information about the current page. It is a real time representation of what you are looking at.
+
+  -There are three ways to use the elements tab:
+  1. inspect the HTML & CSS of a page
+  2. test different layouts
+  3. live-edit CSS in the styles pane
+
+  -You will be allowed to:
+  HTML:
+  1. Edit a DOM node as HTML
+  2. Add and remove DOM nodes
+  3. Edit attribute names and values
+  4. Move DOM elements
+
+  JS:
+  5. Add DOM breakpoints to pause execution of running JavaScript
+  6. View JavaScript event listeners
+
+  CSS:
+  7. Edit styles
+  8. Edit properties and values
+  9. Change colors using the color picker
+  10. Trigger pseudo-classes on elements
+  11. View the box dimensions in the metrics pane
+
+  For a more in depth explanation, visit https://developer.chrome.com/devtools/docs/dom-and-styles.
+
